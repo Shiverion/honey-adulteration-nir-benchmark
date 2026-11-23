@@ -1,0 +1,33 @@
+adulterant,model,n_pure,n_adulterated,balanced_accuracy,accuracy,macro_f1,specificity,sensitivity,roc_auc_mean_within_fold,auc_folds,false_positives,false_negatives
+GLU,PLS-DA,0,8,,0.25,,,0.25,,0,0,6
+RS,PLS-DA,0,10,,0.5,,,0.5,,0,0,5
+JMAF,PLS-DA,0,13,,0.5384615384615384,,,0.5384615384615384,,0,0,6
+none,PLS-DA,6,0,,0.3333333333333333,,0.3333333333333333,,,0,4,0
+GLU,SVM,0,8,,0.25,,,0.25,,0,0,6
+RS,SVM,0,10,,0.5,,,0.5,,0,0,5
+JMAF,SVM,0,13,,0.5384615384615384,,,0.5384615384615384,,0,0,6
+none,SVM,6,0,,0.3333333333333333,,0.3333333333333333,,,0,4,0
+GLU,Random Forest,0,8,,0.75,,,0.75,,0,0,2
+RS,Random Forest,0,10,,0.5,,,0.5,,0,0,5
+JMAF,Random Forest,0,13,,0.8461538461538461,,,0.8461538461538461,,0,0,2
+none,Random Forest,6,0,,0.16666666666666666,,0.16666666666666666,,,0,5,0
+GLU,XGBoost,0,8,,0.375,,,0.375,,0,0,5
+RS,XGBoost,0,10,,0.2,,,0.2,,0,0,8
+JMAF,XGBoost,0,13,,0.23076923076923078,,,0.23076923076923078,,0,0,10
+none,XGBoost,6,0,,1.0,,1.0,,,0,0,0
+GLU,MLP,0,8,,0.25,,,0.25,,0,0,6
+RS,MLP,0,10,,0.1,,,0.1,,0,0,9
+JMAF,MLP,0,13,,0.23076923076923078,,,0.23076923076923078,,0,0,10
+none,MLP,6,0,,1.0,,1.0,,,0,0,0
+GLU,1D-CNN,0,8,,0.25,,,0.25,,0,0,6
+RS,1D-CNN,0,10,,0.0,,,0.0,,0,0,10
+JMAF,1D-CNN,0,13,,0.0,,,0.0,,0,0,13
+none,1D-CNN,6,0,,1.0,,1.0,,,0,0,0
+GLU,Spectral Transformer,0,8,,1.0,,,1.0,,0,0,0
+RS,Spectral Transformer,0,10,,0.8,,,0.8,,0,0,2
+JMAF,Spectral Transformer,0,13,,0.9230769230769231,,,0.9230769230769231,,0,0,1
+none,Spectral Transformer,6,0,,0.0,,0.0,,,0,6,0
+GLU,Selected classical,0,8,,0.375,,,0.375,,0,0,5
+RS,Selected classical,0,10,,0.2,,,0.2,,0,0,8
+JMAF,Selected classical,0,13,,0.23076923076923078,,,0.23076923076923078,,0,0,10
+none,Selected classical,6,0,,1.0,,1.0,,,0,0,0

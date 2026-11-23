@@ -1,0 +1,933 @@
+[
+  {
+    "calibration_brands": [
+      "C10",
+      "C8"
+    ],
+    "development_brands": [
+      "C4",
+      "C5",
+      "C7",
+      "C9"
+    ],
+    "models": {
+      "MLP": {
+        "calibration_pure_count": 12,
+        "calibration_specificity": 0.9166666666666666,
+        "inner_balanced_accuracy": [
+          0.6142191142191142,
+          0.6142191142191142,
+          0.576048951048951,
+          0.576048951048951
+        ],
+        "params": {
+          "learning_rate": 0.001,
+          "weight_decay": 0.0001
+        },
+        "threshold": -0.0887831598520279
+      },
+      "SVM": {
+        "calibration_pure_count": 12,
+        "calibration_specificity": 0.9166666666666666,
+        "inner_balanced_accuracy": [
+          0.583041958041958,
+          0.5795454545454546,
+          0.44405594405594406,
+          0.44755244755244755
+        ],
+        "params": {
+          "C": 0.1,
+          "kernel": "linear"
+        },
+        "threshold": -0.33361679662612354
+      },
+      "XGBoost": {
+        "calibration_pure_count": 12,
+        "calibration_specificity": 1.0,
+        "inner_balanced_accuracy": [
+          0.6628787878787878,
+          0.6628787878787878,
+          0.6663752913752914,
+          0.6663752913752914
+        ],
+        "params": {
+          "learning_rate": 0.04,
+          "max_depth": 4
+        },
+        "threshold": 0.30418330430984497
+      }
+    },
+    "seed": 20261223,
+    "test": "C1",
+    "window": "780-1000"
+  },
+  {
+    "calibration_brands": [
+      "C1",
+      "C9"
+    ],
+    "development_brands": [
+      "C4",
+      "C5",
+      "C7",
+      "C8"
+    ],
+    "models": {
+      "MLP": {
+        "calibration_pure_count": 12,
+        "calibration_specificity": 0.9166666666666666,
+        "inner_balanced_accuracy": [
+          0.5348333333333333,
+          0.5348333333333333,
+          0.41533333333333333,
+          0.41533333333333333
+        ],
+        "params": {
+          "learning_rate": 0.001,
+          "weight_decay": 0.0001
+        },
+        "threshold": 1.2617063522338867
+      },
+      "SVM": {
+        "calibration_pure_count": 12,
+        "calibration_specificity": 0.9166666666666666,
+        "inner_balanced_accuracy": [
+          0.6213333333333333,
+          0.5820000000000001,
+          0.514,
+          0.517
+        ],
+        "params": {
+          "C": 0.1,
+          "kernel": "linear"
+        },
+        "threshold": 5.059627205670422
+      },
+      "XGBoost": {
+        "calibration_pure_count": 12,
+        "calibration_specificity": 1.0,
+        "inner_balanced_accuracy": [
+          0.5740000000000001,
+          0.5868333333333333,
+          0.6028333333333333,
+          0.5948333333333333
+        ],
+        "params": {
+          "learning_rate": 0.04,
+          "max_depth": 4
+        },
+        "threshold": 0.2800526022911072
+      }
+    },
+    "seed": 20261323,
+    "test": "C10",
+    "window": "780-1000"
+  },
+  {
+    "calibration_brands": [
+      "C7",
+      "C9"
+    ],
+    "development_brands": [
+      "C1",
+      "C10",
+      "C5",
+      "C8"
+    ],
+    "models": {
+      "MLP": {
+        "calibration_pure_count": 24,
+        "calibration_specificity": 0.9166666666666666,
+        "inner_balanced_accuracy": [
+          0.6875,
+          0.6875,
+          0.6765873015873016,
+          0.6765873015873016
+        ],
+        "params": {
+          "learning_rate": 0.001,
+          "weight_decay": 0.0001
+        },
+        "threshold": 7.7244415283203125
+      },
+      "SVM": {
+        "calibration_pure_count": 24,
+        "calibration_specificity": 0.9166666666666666,
+        "inner_balanced_accuracy": [
+          0.7410714285714286,
+          0.6726190476190477,
+          0.6716269841269842,
+          0.7063492063492063
+        ],
+        "params": {
+          "C": 0.1,
+          "kernel": "linear"
+        },
+        "threshold": 8.873658651313765
+      },
+      "XGBoost": {
+        "calibration_pure_count": 24,
+        "calibration_specificity": 0.9583333333333334,
+        "inner_balanced_accuracy": [
+          0.6676587301587302,
+          0.7003968253968254,
+          0.6706349206349207,
+          0.7033730158730158
+        ],
+        "params": {
+          "learning_rate": 0.12,
+          "max_depth": 4
+        },
+        "threshold": 0.43184828758239746
+      }
+    },
+    "seed": 20261423,
+    "test": "C4",
+    "window": "780-1000"
+  },
+  {
+    "calibration_brands": [
+      "C7",
+      "C9"
+    ],
+    "development_brands": [
+      "C1",
+      "C10",
+      "C4",
+      "C8"
+    ],
+    "models": {
+      "MLP": {
+        "calibration_pure_count": 24,
+        "calibration_specificity": 0.9166666666666666,
+        "inner_balanced_accuracy": [
+          0.6726075786769429,
+          0.6726075786769429,
+          0.6824020552344252,
+          0.6824020552344252
+        ],
+        "params": {
+          "learning_rate": 0.003,
+          "weight_decay": 0.0001
+        },
+        "threshold": 63.5936279296875
+      },
+      "SVM": {
+        "calibration_pure_count": 24,
+        "calibration_specificity": 0.9166666666666666,
+        "inner_balanced_accuracy": [
+          0.7090558766859345,
+          0.6632947976878613,
+          0.6245985870263326,
+          0.6824020552344252
+        ],
+        "params": {
+          "C": 0.1,
+          "kernel": "linear"
+        },
+        "threshold": 9.820899932560426
+      },
+      "XGBoost": {
+        "calibration_pure_count": 24,
+        "calibration_specificity": 0.9166666666666666,
+        "inner_balanced_accuracy": [
+          0.5759473346178549,
+          0.581727681438664,
+          0.6037251123956326,
+          0.581727681438664
+        ],
+        "params": {
+          "learning_rate": 0.04,
+          "max_depth": 4
+        },
+        "threshold": 0.36671316623687744
+      }
+    },
+    "seed": 20261523,
+    "test": "C5",
+    "window": "780-1000"
+  },
+  {
+    "calibration_brands": [
+      "C8",
+      "C9"
+    ],
+    "development_brands": [
+      "C1",
+      "C10",
+      "C4",
+      "C5"
+    ],
+    "models": {
+      "MLP": {
+        "calibration_pure_count": 12,
+        "calibration_specificity": 0.9166666666666666,
+        "inner_balanced_accuracy": [
+          0.7969061876247505,
+          0.7969061876247505,
+          0.8118762475049901,
+          0.8118762475049901
+        ],
+        "params": {
+          "learning_rate": 0.003,
+          "weight_decay": 0.0001
+        },
+        "threshold": 37.13945770263672
+      },
+      "SVM": {
+        "calibration_pure_count": 12,
+        "calibration_specificity": 0.9166666666666666,
+        "inner_balanced_accuracy": [
+          0.8058882235528942,
+          0.8061377245508983,
+          0.7939121756487026,
+          0.8298403193612774
+        ],
+        "params": {
+          "C": 10.0,
+          "kernel": "rbf"
+        },
+        "threshold": 3.6845436118659975
+      },
+      "XGBoost": {
+        "calibration_pure_count": 12,
+        "calibration_specificity": 1.0,
+        "inner_balanced_accuracy": [
+          0.7999001996007984,
+          0.8028942115768463,
+          0.7999001996007984,
+          0.8028942115768463
+        ],
+        "params": {
+          "learning_rate": 0.12,
+          "max_depth": 2
+        },
+        "threshold": 0.4551907181739807
+      }
+    },
+    "seed": 20261623,
+    "test": "C7",
+    "window": "780-1000"
+  },
+  {
+    "calibration_brands": [
+      "C1",
+      "C9"
+    ],
+    "development_brands": [
+      "C10",
+      "C4",
+      "C5",
+      "C7"
+    ],
+    "models": {
+      "MLP": {
+        "calibration_pure_count": 12,
+        "calibration_specificity": 0.9166666666666666,
+        "inner_balanced_accuracy": [
+          0.7240990990990992,
+          0.7240990990990992,
+          0.5690315315315315,
+          0.5898648648648649
+        ],
+        "params": {
+          "learning_rate": 0.001,
+          "weight_decay": 0.0001
+        },
+        "threshold": 2.7614622116088867
+      },
+      "SVM": {
+        "calibration_pure_count": 12,
+        "calibration_specificity": 0.9166666666666666,
+        "inner_balanced_accuracy": [
+          0.7186936936936937,
+          0.594481981981982,
+          0.5609234234234234,
+          0.4702702702702703
+        ],
+        "params": {
+          "C": 0.1,
+          "kernel": "linear"
+        },
+        "threshold": 6.224046063039829
+      },
+      "XGBoost": {
+        "calibration_pure_count": 12,
+        "calibration_specificity": 1.0,
+        "inner_balanced_accuracy": [
+          0.5655405405405405,
+          0.5709459459459459,
+          0.5682432432432433,
+          0.5682432432432433
+        ],
+        "params": {
+          "learning_rate": 0.12,
+          "max_depth": 2
+        },
+        "threshold": 0.17869281768798828
+      }
+    },
+    "seed": 20261723,
+    "test": "C8",
+    "window": "780-1000"
+  },
+  {
+    "calibration_brands": [
+      "C1",
+      "C10"
+    ],
+    "development_brands": [
+      "C4",
+      "C5",
+      "C7",
+      "C8"
+    ],
+    "models": {
+      "MLP": {
+        "calibration_pure_count": 12,
+        "calibration_specificity": 0.9166666666666666,
+        "inner_balanced_accuracy": [
+          0.5396666666666667,
+          0.5396666666666667,
+          0.4273333333333333,
+          0.4273333333333333
+        ],
+        "params": {
+          "learning_rate": 0.001,
+          "weight_decay": 0.0001
+        },
+        "threshold": -0.8791376352310181
+      },
+      "SVM": {
+        "calibration_pure_count": 12,
+        "calibration_specificity": 0.9166666666666666,
+        "inner_balanced_accuracy": [
+          0.6213333333333333,
+          0.5820000000000001,
+          0.514,
+          0.517
+        ],
+        "params": {
+          "C": 0.1,
+          "kernel": "linear"
+        },
+        "threshold": -0.9938641487561579
+      },
+      "XGBoost": {
+        "calibration_pure_count": 12,
+        "calibration_specificity": 1.0,
+        "inner_balanced_accuracy": [
+          0.5740000000000001,
+          0.5868333333333333,
+          0.6028333333333333,
+          0.5948333333333333
+        ],
+        "params": {
+          "learning_rate": 0.04,
+          "max_depth": 4
+        },
+        "threshold": 0.38584840297698975
+      }
+    },
+    "seed": 20261823,
+    "test": "C9",
+    "window": "780-1000"
+  },
+  {
+    "calibration_brands": [
+      "C10",
+      "C8"
+    ],
+    "development_brands": [
+      "C4",
+      "C5",
+      "C7",
+      "C9"
+    ],
+    "models": {
+      "MLP": {
+        "calibration_pure_count": 12,
+        "calibration_specificity": 0.9166666666666666,
+        "inner_balanced_accuracy": [
+          0.5657051282051282,
+          0.5657051282051282,
+          0.48936480186480186,
+          0.48936480186480186
+        ],
+        "params": {
+          "learning_rate": 0.001,
+          "weight_decay": 0.0001
+        },
+        "threshold": -0.7312374114990234
+      },
+      "SVM": {
+        "calibration_pure_count": 12,
+        "calibration_specificity": 0.9166666666666666,
+        "inner_balanced_accuracy": [
+          0.5620629370629371,
+          0.5552156177156177,
+          0.4370629370629371,
+          0.46503496503496505
+        ],
+        "params": {
+          "C": 0.1,
+          "kernel": "linear"
+        },
+        "threshold": -0.7458087541749697
+      },
+      "XGBoost": {
+        "calibration_pure_count": 12,
+        "calibration_specificity": 0.9166666666666666,
+        "inner_balanced_accuracy": [
+          0.5865384615384616,
+          0.5865384615384616,
+          0.5865384615384616,
+          0.5865384615384616
+        ],
+        "params": {
+          "learning_rate": 0.04,
+          "max_depth": 2
+        },
+        "threshold": 0.10489773750305176
+      }
+    },
+    "seed": 20261223,
+    "test": "C1",
+    "window": "850-1000"
+  },
+  {
+    "calibration_brands": [
+      "C1",
+      "C9"
+    ],
+    "development_brands": [
+      "C4",
+      "C5",
+      "C7",
+      "C8"
+    ],
+    "models": {
+      "MLP": {
+        "calibration_pure_count": 12,
+        "calibration_specificity": 0.9166666666666666,
+        "inner_balanced_accuracy": [
+          0.6813333333333333,
+          0.6813333333333333,
+          0.6028333333333333,
+          0.6028333333333333
+        ],
+        "params": {
+          "learning_rate": 0.001,
+          "weight_decay": 0.0001
+        },
+        "threshold": 1.0125373601913452
+      },
+      "SVM": {
+        "calibration_pure_count": 12,
+        "calibration_specificity": 0.9166666666666666,
+        "inner_balanced_accuracy": [
+          0.744,
+          0.6950000000000001,
+          0.5900000000000001,
+          0.626
+        ],
+        "params": {
+          "C": 0.1,
+          "kernel": "linear"
+        },
+        "threshold": -0.6530232298858912
+      },
+      "XGBoost": {
+        "calibration_pure_count": 12,
+        "calibration_specificity": 1.0,
+        "inner_balanced_accuracy": [
+          0.6333333333333333,
+          0.6125,
+          0.6333333333333333,
+          0.5956666666666667
+        ],
+        "params": {
+          "learning_rate": 0.04,
+          "max_depth": 2
+        },
+        "threshold": 0.3407445549964905
+      }
+    },
+    "seed": 20261323,
+    "test": "C10",
+    "window": "850-1000"
+  },
+  {
+    "calibration_brands": [
+      "C7",
+      "C9"
+    ],
+    "development_brands": [
+      "C1",
+      "C10",
+      "C5",
+      "C8"
+    ],
+    "models": {
+      "MLP": {
+        "calibration_pure_count": 24,
+        "calibration_specificity": 0.9166666666666666,
+        "inner_balanced_accuracy": [
+          0.7142857142857142,
+          0.7142857142857142,
+          0.6795634920634921,
+          0.6795634920634921
+        ],
+        "params": {
+          "learning_rate": 0.001,
+          "weight_decay": 0.0001
+        },
+        "threshold": 0.5045210123062134
+      },
+      "SVM": {
+        "calibration_pure_count": 24,
+        "calibration_specificity": 0.9166666666666666,
+        "inner_balanced_accuracy": [
+          0.7757936507936508,
+          0.8253968253968254,
+          0.7053571428571428,
+          0.6537698412698413
+        ],
+        "params": {
+          "C": 1.0,
+          "kernel": "linear"
+        },
+        "threshold": 1.56368431365008
+      },
+      "XGBoost": {
+        "calibration_pure_count": 24,
+        "calibration_specificity": 1.0,
+        "inner_balanced_accuracy": [
+          0.560515873015873,
+          0.5575396825396826,
+          0.560515873015873,
+          0.5575396825396826
+        ],
+        "params": {
+          "learning_rate": 0.04,
+          "max_depth": 2
+        },
+        "threshold": 0.2723735570907593
+      }
+    },
+    "seed": 20261423,
+    "test": "C4",
+    "window": "850-1000"
+  },
+  {
+    "calibration_brands": [
+      "C7",
+      "C9"
+    ],
+    "development_brands": [
+      "C1",
+      "C10",
+      "C4",
+      "C8"
+    ],
+    "models": {
+      "MLP": {
+        "calibration_pure_count": 24,
+        "calibration_specificity": 0.9166666666666666,
+        "inner_balanced_accuracy": [
+          0.7032755298651252,
+          0.7032755298651252,
+          0.6077392421323057,
+          0.6077392421323057
+        ],
+        "params": {
+          "learning_rate": 0.001,
+          "weight_decay": 0.0001
+        },
+        "threshold": 4.3143815994262695
+      },
+      "SVM": {
+        "calibration_pure_count": 24,
+        "calibration_specificity": 0.9166666666666666,
+        "inner_balanced_accuracy": [
+          0.731053307642903,
+          0.7657353885677585,
+          0.6888246628131021,
+          0.6221901091843288
+        ],
+        "params": {
+          "C": 1.0,
+          "kernel": "linear"
+        },
+        "threshold": 2.3570671889306474
+      },
+      "XGBoost": {
+        "calibration_pure_count": 24,
+        "calibration_specificity": 0.9166666666666666,
+        "inner_balanced_accuracy": [
+          0.5226396917148363,
+          0.5110789980732178,
+          0.4948619139370585,
+          0.4861913937058445
+        ],
+        "params": {
+          "learning_rate": 0.04,
+          "max_depth": 2
+        },
+        "threshold": 0.2376539707183838
+      }
+    },
+    "seed": 20261523,
+    "test": "C5",
+    "window": "850-1000"
+  },
+  {
+    "calibration_brands": [
+      "C8",
+      "C9"
+    ],
+    "development_brands": [
+      "C1",
+      "C10",
+      "C4",
+      "C5"
+    ],
+    "models": {
+      "MLP": {
+        "calibration_pure_count": 12,
+        "calibration_specificity": 0.9166666666666666,
+        "inner_balanced_accuracy": [
+          0.8862275449101796,
+          0.8862275449101796,
+          0.7108283433133733,
+          0.7108283433133733
+        ],
+        "params": {
+          "learning_rate": 0.001,
+          "weight_decay": 0.0001
+        },
+        "threshold": 9.646904945373535
+      },
+      "SVM": {
+        "calibration_pure_count": 12,
+        "calibration_specificity": 0.9166666666666666,
+        "inner_balanced_accuracy": [
+          0.7522455089820359,
+          0.5114770459081837,
+          0.8385728542914171,
+          0.6067864271457086
+        ],
+        "params": {
+          "C": 1.0,
+          "kernel": "rbf"
+        },
+        "threshold": 1.4086952157004786
+      },
+      "XGBoost": {
+        "calibration_pure_count": 12,
+        "calibration_specificity": 1.0,
+        "inner_balanced_accuracy": [
+          0.5384231536926147,
+          0.5384231536926147,
+          0.5384231536926147,
+          0.5384231536926147
+        ],
+        "params": {
+          "learning_rate": 0.04,
+          "max_depth": 2
+        },
+        "threshold": 0.3960695266723633
+      }
+    },
+    "seed": 20261623,
+    "test": "C7",
+    "window": "850-1000"
+  },
+  {
+    "calibration_brands": [
+      "C1",
+      "C9"
+    ],
+    "development_brands": [
+      "C10",
+      "C4",
+      "C5",
+      "C7"
+    ],
+    "models": {
+      "MLP": {
+        "calibration_pure_count": 12,
+        "calibration_specificity": 0.9166666666666666,
+        "inner_balanced_accuracy": [
+          0.6364864864864865,
+          0.6364864864864865,
+          0.65,
+          0.65
+        ],
+        "params": {
+          "learning_rate": 0.003,
+          "weight_decay": 0.0001
+        },
+        "threshold": 5.205466270446777
+      },
+      "SVM": {
+        "calibration_pure_count": 12,
+        "calibration_specificity": 0.9166666666666666,
+        "inner_balanced_accuracy": [
+          0.6310810810810811,
+          0.6600225225225225,
+          0.6546171171171171,
+          0.6581081081081082
+        ],
+        "params": {
+          "C": 1.0,
+          "kernel": "linear"
+        },
+        "threshold": 0.2063481890376777
+      },
+      "XGBoost": {
+        "calibration_pure_count": 12,
+        "calibration_specificity": 1.0,
+        "inner_balanced_accuracy": [
+          0.6388513513513514,
+          0.6415540540540541,
+          0.6596846846846847,
+          0.6496621621621621
+        ],
+        "params": {
+          "learning_rate": 0.04,
+          "max_depth": 4
+        },
+        "threshold": 0.4289025664329529
+      }
+    },
+    "seed": 20261723,
+    "test": "C8",
+    "window": "850-1000"
+  },
+  {
+    "calibration_brands": [
+      "C1",
+      "C10"
+    ],
+    "development_brands": [
+      "C4",
+      "C5",
+      "C7",
+      "C8"
+    ],
+    "models": {
+      "MLP": {
+        "calibration_pure_count": 12,
+        "calibration_specificity": 0.9166666666666666,
+        "inner_balanced_accuracy": [
+          0.7110000000000001,
+          0.7110000000000001,
+          0.6628333333333334,
+          0.6628333333333334
+        ],
+        "params": {
+          "learning_rate": 0.001,
+          "weight_decay": 0.0001
+        },
+        "threshold": 1.0083973407745361
+      },
+      "SVM": {
+        "calibration_pure_count": 12,
+        "calibration_specificity": 0.9166666666666666,
+        "inner_balanced_accuracy": [
+          0.744,
+          0.6950000000000001,
+          0.5900000000000001,
+          0.626
+        ],
+        "params": {
+          "C": 0.1,
+          "kernel": "linear"
+        },
+        "threshold": -0.6530232298858912
+      },
+      "XGBoost": {
+        "calibration_pure_count": 12,
+        "calibration_specificity": 1.0,
+        "inner_balanced_accuracy": [
+          0.6333333333333333,
+          0.6125,
+          0.6333333333333333,
+          0.5956666666666667
+        ],
+        "params": {
+          "learning_rate": 0.04,
+          "max_depth": 2
+        },
+        "threshold": 0.3407445549964905
+      }
+    },
+    "seed": 20261823,
+    "test": "C9",
+    "window": "850-1000"
+  },
+  {
+    "calibration_brands": [
+      "C8",
+      "C9"
+    ],
+    "development_brands": [
+      "C1",
+      "C10",
+      "C4",
+      "C5",
+      "C7"
+    ],
+    "models": {
+      "MLP": {
+        "calibration_pure_count": 12,
+        "calibration_specificity": 0.9166666666666666,
+        "inner_balanced_accuracy": [
+          0.6700440528634362,
+          0.6700440528634362,
+          0.694273127753304,
+          0.6920704845814978
+        ],
+        "params": {
+          "learning_rate": 0.003,
+          "weight_decay": 0.0001
+        },
+        "threshold": -1.0389626026153564
+      },
+      "SVM": {
+        "calibration_pure_count": 12,
+        "calibration_specificity": 0.9166666666666666,
+        "inner_balanced_accuracy": [
+          0.746769456681351,
+          0.7685022026431718,
+          0.6901615271659325,
+          0.7439794419970631
+        ],
+        "params": {
+          "C": 1.0,
+          "kernel": "linear"
+        },
+        "threshold": -0.06227656785729119
+      },
+      "XGBoost": {
+        "calibration_pure_count": 12,
+        "calibration_specificity": 0.9166666666666666,
+        "inner_balanced_accuracy": [
+          0.6093979441997063,
+          0.6037444933920705,
+          0.6138032305433186,
+          0.5914831130690161
+        ],
+        "params": {
+          "learning_rate": 0.04,
+          "max_depth": 4
+        },
+        "threshold": 0.06843405961990356
+      }
+    },
+    "seed": 20261923,
+    "test": "Padua",
+    "window": "850-1000"
+  }
+]

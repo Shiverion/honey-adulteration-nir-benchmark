@@ -1,0 +1,7 @@
+model,representation,flags,samples,flag_rate
+SVM,reflectance_proxy,80,80,1.0
+XGBoost,reflectance_proxy,80,80,1.0
+MLP,reflectance_proxy,80,80,1.0
+SVM,as_recorded_absorbance,80,80,1.0
+XGBoost,as_recorded_absorbance,80,80,1.0
+MLP,as_recorded_absorbance,80,80,1.0

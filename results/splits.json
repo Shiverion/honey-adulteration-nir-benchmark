@@ -1,0 +1,228 @@
+[
+  {
+    "protocol": "held_out_brand",
+    "fold": "C1",
+    "seed": 20261123,
+    "outer_source_training": [
+      "C10",
+      "C4",
+      "C5",
+      "C7",
+      "C8",
+      "C9"
+    ],
+    "inner_validation": [
+      [
+        "C10"
+      ],
+      [
+        "C4",
+        "C7"
+      ],
+      [
+        "C5",
+        "C8",
+        "C9"
+      ]
+    ],
+    "test_rows": 48
+  },
+  {
+    "protocol": "held_out_brand",
+    "fold": "C10",
+    "seed": 20261223,
+    "outer_source_training": [
+      "C1",
+      "C4",
+      "C5",
+      "C7",
+      "C8",
+      "C9"
+    ],
+    "inner_validation": [
+      [
+        "C7"
+      ],
+      [
+        "C8",
+        "C9"
+      ],
+      [
+        "C1",
+        "C4",
+        "C5"
+      ]
+    ],
+    "test_rows": 90
+  },
+  {
+    "protocol": "held_out_brand",
+    "fold": "C4",
+    "seed": 20261323,
+    "outer_source_training": [
+      "C1",
+      "C10",
+      "C5",
+      "C7",
+      "C8",
+      "C9"
+    ],
+    "inner_validation": [
+      [
+        "C10",
+        "C5"
+      ],
+      [
+        "C7",
+        "C8"
+      ],
+      [
+        "C1",
+        "C9"
+      ]
+    ],
+    "test_rows": 23
+  },
+  {
+    "protocol": "held_out_brand",
+    "fold": "C5",
+    "seed": 20261423,
+    "outer_source_training": [
+      "C1",
+      "C10",
+      "C4",
+      "C7",
+      "C8",
+      "C9"
+    ],
+    "inner_validation": [
+      [
+        "C10",
+        "C4"
+      ],
+      [
+        "C7",
+        "C8"
+      ],
+      [
+        "C1",
+        "C9"
+      ]
+    ],
+    "test_rows": 18
+  },
+  {
+    "protocol": "held_out_brand",
+    "fold": "C7",
+    "seed": 20261523,
+    "outer_source_training": [
+      "C1",
+      "C10",
+      "C4",
+      "C5",
+      "C8",
+      "C9"
+    ],
+    "inner_validation": [
+      [
+        "C10"
+      ],
+      [
+        "C8",
+        "C9"
+      ],
+      [
+        "C1",
+        "C4",
+        "C5"
+      ]
+    ],
+    "test_rows": 78
+  },
+  {
+    "protocol": "held_out_brand",
+    "fold": "C8",
+    "seed": 20261623,
+    "outer_source_training": [
+      "C1",
+      "C10",
+      "C4",
+      "C5",
+      "C7",
+      "C9"
+    ],
+    "inner_validation": [
+      [
+        "C10",
+        "C5"
+      ],
+      [
+        "C4",
+        "C7"
+      ],
+      [
+        "C1",
+        "C9"
+      ]
+    ],
+    "test_rows": 30
+  },
+  {
+    "protocol": "held_out_brand",
+    "fold": "C9",
+    "seed": 20261723,
+    "outer_source_training": [
+      "C1",
+      "C10",
+      "C4",
+      "C5",
+      "C7",
+      "C8"
+    ],
+    "inner_validation": [
+      [
+        "C10"
+      ],
+      [
+        "C4",
+        "C7"
+      ],
+      [
+        "C1",
+        "C5",
+        "C8"
+      ]
+    ],
+    "test_rows": 48
+  },
+  {
+    "protocol": "cross_dataset",
+    "fold": "Argentina",
+    "seed": 20261823,
+    "outer_source_training": [
+      "C1",
+      "C10",
+      "C4",
+      "C5",
+      "C7",
+      "C8",
+      "C9"
+    ],
+    "inner_validation": [
+      [
+        "C10",
+        "C4"
+      ],
+      [
+        "C7",
+        "C8"
+      ],
+      [
+        "C1",
+        "C5",
+        "C9"
+      ]
+    ],
+    "test_rows": 37
+  }
+]

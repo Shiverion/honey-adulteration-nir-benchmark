@@ -1,0 +1,13 @@
+{
+  "adulterants": [
+    "rice",
+    "sucrose"
+  ],
+  "instrument": "screening-unit",
+  "lot_count": 24,
+  "lot_ids": "placeholders",
+  "planned_repeat_scans": 30,
+  "preparation_count": 120,
+  "repeat_lot_count": 6,
+  "seed": 20261123
+}

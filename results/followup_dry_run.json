@@ -1,0 +1,162 @@
+{
+  "blinded_scores_sha256": "f6c51ca10d1a8e870389c27b25de63d3d59e2e16f75f5b3571e56094e2bf81e5",
+  "dry_run_design": {
+    "calibration_brand": "C8",
+    "development_brands": [
+      "C1",
+      "C10",
+      "C4",
+      "C5"
+    ],
+    "selection": "Keep complete nominal 0/5/10 dose panels, with the first sorted preparation key per dose.",
+    "source": "Auckland public dataset",
+    "test_brands": [
+      "C7",
+      "C9"
+    ],
+    "test_unit": "Brand, product and acquisition surrogate with unverified parent lots."
+  },
+  "frozen_sha256": "7e0978ee802e8f560d6e88e3f0fe98b51d2ba180def52c4104f90f416480022b",
+  "go_decision": "fail",
+  "models": {
+    "MLP": {
+      "SOC-710": {
+        "endpoints": {
+          "sensitivity_10pct": {
+            "estimate": 0.375,
+            "meets_target": false,
+            "one_sided_lower_bound": 0.21156555719702858,
+            "passed_lots": 9,
+            "target": 0.8,
+            "total_lots": 24
+          },
+          "sensitivity_5pct": {
+            "estimate": 0.5416666666666666,
+            "meets_target": false,
+            "one_sided_lower_bound": 0.357563959346521,
+            "passed_lots": 13,
+            "target": 0.8,
+            "total_lots": 24
+          },
+          "specificity": {
+            "estimate": 0.375,
+            "meets_target": false,
+            "one_sided_lower_bound": 0.21156555719702858,
+            "passed_lots": 9,
+            "target": 0.9,
+            "total_lots": 24
+          }
+        },
+        "per_syrup_sensitivity": {
+          "sugar syrup": {
+            "10": {
+              "detected": 9,
+              "estimate": 0.375,
+              "tested": 24
+            },
+            "5": {
+              "detected": 13,
+              "estimate": 0.5416666666666666,
+              "tested": 24
+            }
+          }
+        }
+      }
+    },
+    "SVM": {
+      "SOC-710": {
+        "endpoints": {
+          "sensitivity_10pct": {
+            "estimate": 0.0,
+            "meets_target": false,
+            "one_sided_lower_bound": 0.0,
+            "passed_lots": 0,
+            "target": 0.8,
+            "total_lots": 24
+          },
+          "sensitivity_5pct": {
+            "estimate": 0.08333333333333333,
+            "meets_target": false,
+            "one_sided_lower_bound": 0.015011778763587403,
+            "passed_lots": 2,
+            "target": 0.8,
+            "total_lots": 24
+          },
+          "specificity": {
+            "estimate": 0.875,
+            "meets_target": false,
+            "one_sided_lower_bound": 0.7077268034920106,
+            "passed_lots": 21,
+            "target": 0.9,
+            "total_lots": 24
+          }
+        },
+        "per_syrup_sensitivity": {
+          "sugar syrup": {
+            "10": {
+              "detected": 0,
+              "estimate": 0.0,
+              "tested": 24
+            },
+            "5": {
+              "detected": 2,
+              "estimate": 0.08333333333333333,
+              "tested": 24
+            }
+          }
+        }
+      }
+    },
+    "XGBoost": {
+      "SOC-710": {
+        "endpoints": {
+          "sensitivity_10pct": {
+            "estimate": 0.6666666666666666,
+            "meets_target": false,
+            "one_sided_lower_bound": 0.4785771051929929,
+            "passed_lots": 16,
+            "target": 0.8,
+            "total_lots": 24
+          },
+          "sensitivity_5pct": {
+            "estimate": 0.25,
+            "meets_target": false,
+            "one_sided_lower_bound": 0.1149105705643422,
+            "passed_lots": 6,
+            "target": 0.8,
+            "total_lots": 24
+          },
+          "specificity": {
+            "estimate": 0.75,
+            "meets_target": false,
+            "one_sided_lower_bound": 0.565308621098989,
+            "passed_lots": 18,
+            "target": 0.9,
+            "total_lots": 24
+          }
+        },
+        "per_syrup_sensitivity": {
+          "sugar syrup": {
+            "10": {
+              "detected": 16,
+              "estimate": 0.6666666666666666,
+              "tested": 24
+            },
+            "5": {
+              "detected": 6,
+              "estimate": 0.25,
+              "tested": 24
+            }
+          }
+        }
+      }
+    }
+  },
+  "one_sided_confidence": 0.95,
+  "paired_instrument_changes": {},
+  "primary_model": "XGBoost",
+  "retrospective_dry_run": true,
+  "source_instrument": "SOC-710",
+  "target_instrument": "SOC-710",
+  "test_labels_sha256": "fa8d76bf2689133912501715565cfaad3686706b520f4e68b8dd4833dfa79af1"
+}

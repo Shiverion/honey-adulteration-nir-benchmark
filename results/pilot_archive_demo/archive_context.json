@@ -1,0 +1,8 @@
+{
+  "bands": "The native span uses the wavelength column labels in the released CSV.",
+  "dataset": "Auckland public hyperspectral release",
+  "lot_surrogate": "Brand, product and acquisition key. Parent lot identity is unverified.",
+  "runs_only_as_demonstration": true,
+  "second_day": "The archive has no verified day-two repeat scans.",
+  "validation_group": "Brand, with two development brands, one calibration brand and one test brand in each fold."
+}

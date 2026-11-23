@@ -1,0 +1,379 @@
+{
+  "design": {
+    "adulterants": [
+      "sugar syrup"
+    ],
+    "instrument": "SOC-710",
+    "lot_count": 36,
+    "lot_ids": "supplied",
+    "planned_repeat_scans": 0,
+    "preparation_count": 108,
+    "repeat_lot_count": 0,
+    "seed": 20261123
+  },
+  "grids_nm": {
+    "common_780_1000_nm": [
+      780.0,
+      784.6808510638298,
+      789.3617021276596,
+      794.0425531914893,
+      798.7234042553191,
+      803.4042553191489,
+      808.0851063829787,
+      812.7659574468086,
+      817.4468085106383,
+      822.1276595744681,
+      826.8085106382979,
+      831.4893617021277,
+      836.1702127659574,
+      840.8510638297872,
+      845.531914893617,
+      850.2127659574468,
+      854.8936170212766,
+      859.5744680851064,
+      864.2553191489362,
+      868.936170212766,
+      873.6170212765958,
+      878.2978723404256,
+      882.9787234042553,
+      887.6595744680851,
+      892.3404255319149,
+      897.0212765957447,
+      901.7021276595744,
+      906.3829787234042,
+      911.063829787234,
+      915.7446808510638,
+      920.4255319148936,
+      925.1063829787234,
+      929.7872340425532,
+      934.468085106383,
+      939.1489361702128,
+      943.8297872340426,
+      948.5106382978723,
+      953.1914893617021,
+      957.8723404255319,
+      962.5531914893617,
+      967.2340425531916,
+      971.9148936170213,
+      976.5957446808511,
+      981.2765957446809,
+      985.9574468085107,
+      990.6382978723404,
+      995.3191489361702,
+      1000.0
+    ],
+    "native_span": [
+      399.4,
+      413.5359574468085,
+      427.671914893617,
+      441.8078723404255,
+      455.943829787234,
+      470.07978723404256,
+      484.215744680851,
+      498.35170212765956,
+      512.487659574468,
+      526.6236170212766,
+      540.759574468085,
+      554.8955319148936,
+      569.0314893617021,
+      583.1674468085106,
+      597.3034042553192,
+      611.4393617021276,
+      625.5753191489362,
+      639.7112765957446,
+      653.8472340425532,
+      667.9831914893616,
+      682.1191489361702,
+      696.2551063829787,
+      710.3910638297872,
+      724.5270212765956,
+      738.6629787234042,
+      752.7989361702128,
+      766.9348936170212,
+      781.0708510638298,
+      795.2068085106382,
+      809.3427659574468,
+      823.4787234042553,
+      837.6146808510638,
+      851.7506382978722,
+      865.8865957446808,
+      880.0225531914894,
+      894.1585106382978,
+      908.2944680851062,
+      922.4304255319148,
+      936.5663829787234,
+      950.7023404255318,
+      964.8382978723404,
+      978.9742553191488,
+      993.1102127659574,
+      1007.246170212766,
+      1021.3821276595744,
+      1035.5180851063828,
+      1049.6540425531914,
+      1063.79
+    ]
+  },
+  "instrument_export": {
+    "covers_780_1000_nm": true,
+    "instrument": "SOC-710",
+    "max_nm": 1063.79,
+    "min_nm": 399.4,
+    "native_channels": 128,
+    "scans": 108
+  },
+  "models": [
+    {
+      "endpoints": {
+        "sensitivity_10pct": {
+          "estimate": 0.1111111111111111,
+          "lots": 36,
+          "successes": 4,
+          "target": 0.8
+        },
+        "sensitivity_5pct": {
+          "estimate": 0.19444444444444445,
+          "lots": 36,
+          "successes": 7,
+          "target": 0.8
+        },
+        "specificity": {
+          "estimate": 0.75,
+          "lots": 36,
+          "successes": 27,
+          "target": 0.9
+        }
+      },
+      "meets_all_pilot_point_targets": false,
+      "model": "SVM",
+      "per_syrup": [
+        {
+          "adulterant": "sugar syrup",
+          "detected": 7,
+          "dose_pct": 5.0,
+          "preparations": 36
+        },
+        {
+          "adulterant": "sugar syrup",
+          "detected": 4,
+          "dose_pct": 10.0,
+          "preparations": 36
+        }
+      ],
+      "second_day": null,
+      "window": "common_780_1000_nm"
+    },
+    {
+      "endpoints": {
+        "sensitivity_10pct": {
+          "estimate": 0.16666666666666666,
+          "lots": 36,
+          "successes": 6,
+          "target": 0.8
+        },
+        "sensitivity_5pct": {
+          "estimate": 0.2777777777777778,
+          "lots": 36,
+          "successes": 10,
+          "target": 0.8
+        },
+        "specificity": {
+          "estimate": 0.8333333333333334,
+          "lots": 36,
+          "successes": 30,
+          "target": 0.9
+        }
+      },
+      "meets_all_pilot_point_targets": false,
+      "model": "XGBoost",
+      "per_syrup": [
+        {
+          "adulterant": "sugar syrup",
+          "detected": 10,
+          "dose_pct": 5.0,
+          "preparations": 36
+        },
+        {
+          "adulterant": "sugar syrup",
+          "detected": 6,
+          "dose_pct": 10.0,
+          "preparations": 36
+        }
+      ],
+      "second_day": null,
+      "window": "common_780_1000_nm"
+    },
+    {
+      "endpoints": {
+        "sensitivity_10pct": {
+          "estimate": 0.05555555555555555,
+          "lots": 36,
+          "successes": 2,
+          "target": 0.8
+        },
+        "sensitivity_5pct": {
+          "estimate": 0.3333333333333333,
+          "lots": 36,
+          "successes": 12,
+          "target": 0.8
+        },
+        "specificity": {
+          "estimate": 0.6666666666666666,
+          "lots": 36,
+          "successes": 24,
+          "target": 0.9
+        }
+      },
+      "meets_all_pilot_point_targets": false,
+      "model": "MLP",
+      "per_syrup": [
+        {
+          "adulterant": "sugar syrup",
+          "detected": 12,
+          "dose_pct": 5.0,
+          "preparations": 36
+        },
+        {
+          "adulterant": "sugar syrup",
+          "detected": 2,
+          "dose_pct": 10.0,
+          "preparations": 36
+        }
+      ],
+      "second_day": null,
+      "window": "common_780_1000_nm"
+    },
+    {
+      "endpoints": {
+        "sensitivity_10pct": {
+          "estimate": 0.3611111111111111,
+          "lots": 36,
+          "successes": 13,
+          "target": 0.8
+        },
+        "sensitivity_5pct": {
+          "estimate": 0.4166666666666667,
+          "lots": 36,
+          "successes": 15,
+          "target": 0.8
+        },
+        "specificity": {
+          "estimate": 0.6666666666666666,
+          "lots": 36,
+          "successes": 24,
+          "target": 0.9
+        }
+      },
+      "meets_all_pilot_point_targets": false,
+      "model": "SVM",
+      "per_syrup": [
+        {
+          "adulterant": "sugar syrup",
+          "detected": 15,
+          "dose_pct": 5.0,
+          "preparations": 36
+        },
+        {
+          "adulterant": "sugar syrup",
+          "detected": 13,
+          "dose_pct": 10.0,
+          "preparations": 36
+        }
+      ],
+      "second_day": null,
+      "window": "native_span"
+    },
+    {
+      "endpoints": {
+        "sensitivity_10pct": {
+          "estimate": 0.1388888888888889,
+          "lots": 36,
+          "successes": 5,
+          "target": 0.8
+        },
+        "sensitivity_5pct": {
+          "estimate": 0.16666666666666666,
+          "lots": 36,
+          "successes": 6,
+          "target": 0.8
+        },
+        "specificity": {
+          "estimate": 0.6944444444444444,
+          "lots": 36,
+          "successes": 25,
+          "target": 0.9
+        }
+      },
+      "meets_all_pilot_point_targets": false,
+      "model": "XGBoost",
+      "per_syrup": [
+        {
+          "adulterant": "sugar syrup",
+          "detected": 6,
+          "dose_pct": 5.0,
+          "preparations": 36
+        },
+        {
+          "adulterant": "sugar syrup",
+          "detected": 5,
+          "dose_pct": 10.0,
+          "preparations": 36
+        }
+      ],
+      "second_day": null,
+      "window": "native_span"
+    },
+    {
+      "endpoints": {
+        "sensitivity_10pct": {
+          "estimate": 0.08333333333333333,
+          "lots": 36,
+          "successes": 3,
+          "target": 0.8
+        },
+        "sensitivity_5pct": {
+          "estimate": 0.2777777777777778,
+          "lots": 36,
+          "successes": 10,
+          "target": 0.8
+        },
+        "specificity": {
+          "estimate": 0.6666666666666666,
+          "lots": 36,
+          "successes": 24,
+          "target": 0.9
+        }
+      },
+      "meets_all_pilot_point_targets": false,
+      "model": "MLP",
+      "per_syrup": [
+        {
+          "adulterant": "sugar syrup",
+          "detected": 10,
+          "dose_pct": 5.0,
+          "preparations": 36
+        },
+        {
+          "adulterant": "sugar syrup",
+          "detected": 3,
+          "dose_pct": 10.0,
+          "preparations": 36
+        }
+      ],
+      "second_day": null,
+      "window": "native_span"
+    }
+  ],
+  "repeat_status": "not_scheduled",
+  "sha256": {
+    "baseline_spectra": "4b821ebfb9eb2121fe66f61bf2ef4655246e43cfd18f5a6d267945ee57ffb7cd",
+    "design.json": "c67186af70d87e749d60a657211c4545dee49a10bec5647cffaf02fd7477cf16",
+    "lot_inventory.csv": "822a84e793b7cd47451d3db55d3c2bbac87a754d5e3318da0b6780ab963562ee",
+    "preparation_key.csv": "c8469c3bc836b9dabc83fbd534bad64ed302779b60df06ec595057acd82cde3a",
+    "scan_schedule.csv": "81c946a00d2071c4e5facc35b5186141466dd15106779a8ba2051d51a6ccf90f",
+    "validation_groups": "5cb0d4e068e2fb26fbe87dc299a318b33ba260c5a5de71ca25844d7727bee203"
+  },
+  "spectral_repeatability": {
+    "common_780_1000_nm": null,
+    "native_span": null
+  }
+}

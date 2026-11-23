@@ -1,0 +1,562 @@
+[
+  {
+    "calibration_groups": [
+      "C9"
+    ],
+    "development_groups": [
+      "C1",
+      "C8"
+    ],
+    "fold": 1,
+    "inner_validation_groups": [
+      [
+        "C8"
+      ],
+      [
+        "C1"
+      ]
+    ],
+    "models": {
+      "MLP": {
+        "calibration_pure_lots": 6,
+        "calibration_specificity": 1.0,
+        "inner_scores": [
+          0.3125,
+          0.3125,
+          0.3541666666666667,
+          0.3541666666666667
+        ],
+        "params": {
+          "learning_rate": 0.003,
+          "weight_decay": 0.0001
+        },
+        "threshold": 29.07837677001953
+      },
+      "SVM": {
+        "calibration_pure_lots": 6,
+        "calibration_specificity": 1.0,
+        "inner_scores": [
+          0.3125,
+          0.375,
+          0.5,
+          0.5
+        ],
+        "params": {
+          "C": 1.0,
+          "kernel": "rbf"
+        },
+        "threshold": 0.4207626147076402
+      },
+      "XGBoost": {
+        "calibration_pure_lots": 6,
+        "calibration_specificity": 1.0,
+        "inner_scores": [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "params": {
+          "learning_rate": 0.04,
+          "max_depth": 2
+        },
+        "threshold": 0.36926525831222534
+      }
+    },
+    "seed": 20261223,
+    "test_groups": [
+      "C7"
+    ],
+    "window": "common_780_1000_nm"
+  },
+  {
+    "calibration_groups": [
+      "C1"
+    ],
+    "development_groups": [
+      "C7",
+      "C9"
+    ],
+    "fold": 2,
+    "inner_validation_groups": [
+      [
+        "C7"
+      ],
+      [
+        "C9"
+      ]
+    ],
+    "models": {
+      "MLP": {
+        "calibration_pure_lots": 6,
+        "calibration_specificity": 1.0,
+        "inner_scores": [
+          0.5208333333333333,
+          0.5208333333333333,
+          0.5,
+          0.5
+        ],
+        "params": {
+          "learning_rate": 0.001,
+          "weight_decay": 0.0001
+        },
+        "threshold": -0.11255460977554321
+      },
+      "SVM": {
+        "calibration_pure_lots": 6,
+        "calibration_specificity": 1.0,
+        "inner_scores": [
+          0.5833333333333333,
+          0.53125,
+          0.5520833333333333,
+          0.53125
+        ],
+        "params": {
+          "C": 0.1,
+          "kernel": "linear"
+        },
+        "threshold": -0.739444354199007
+      },
+      "XGBoost": {
+        "calibration_pure_lots": 6,
+        "calibration_specificity": 1.0,
+        "inner_scores": [
+          0.59375,
+          0.59375,
+          0.59375,
+          0.59375
+        ],
+        "params": {
+          "learning_rate": 0.04,
+          "max_depth": 2
+        },
+        "threshold": 0.008350908756256104
+      }
+    },
+    "seed": 20261323,
+    "test_groups": [
+      "C8"
+    ],
+    "window": "common_780_1000_nm"
+  },
+  {
+    "calibration_groups": [
+      "C8"
+    ],
+    "development_groups": [
+      "C7",
+      "C9"
+    ],
+    "fold": 3,
+    "inner_validation_groups": [
+      [
+        "C7"
+      ],
+      [
+        "C9"
+      ]
+    ],
+    "models": {
+      "MLP": {
+        "calibration_pure_lots": 6,
+        "calibration_specificity": 1.0,
+        "inner_scores": [
+          0.5729166666666667,
+          0.5729166666666667,
+          0.5104166666666667,
+          0.5104166666666667
+        ],
+        "params": {
+          "learning_rate": 0.001,
+          "weight_decay": 0.0001
+        },
+        "threshold": 0.23171913623809814
+      },
+      "SVM": {
+        "calibration_pure_lots": 6,
+        "calibration_specificity": 1.0,
+        "inner_scores": [
+          0.5833333333333333,
+          0.53125,
+          0.5520833333333333,
+          0.53125
+        ],
+        "params": {
+          "C": 0.1,
+          "kernel": "linear"
+        },
+        "threshold": 1.022635412373899
+      },
+      "XGBoost": {
+        "calibration_pure_lots": 6,
+        "calibration_specificity": 1.0,
+        "inner_scores": [
+          0.59375,
+          0.59375,
+          0.59375,
+          0.59375
+        ],
+        "params": {
+          "learning_rate": 0.04,
+          "max_depth": 2
+        },
+        "threshold": 0.29575657844543457
+      }
+    },
+    "seed": 20261423,
+    "test_groups": [
+      "C1"
+    ],
+    "window": "common_780_1000_nm"
+  },
+  {
+    "calibration_groups": [
+      "C7"
+    ],
+    "development_groups": [
+      "C1",
+      "C8"
+    ],
+    "fold": 4,
+    "inner_validation_groups": [
+      [
+        "C8"
+      ],
+      [
+        "C1"
+      ]
+    ],
+    "models": {
+      "MLP": {
+        "calibration_pure_lots": 18,
+        "calibration_specificity": 0.9444444444444444,
+        "inner_scores": [
+          0.3125,
+          0.3125,
+          0.3541666666666667,
+          0.3541666666666667
+        ],
+        "params": {
+          "learning_rate": 0.003,
+          "weight_decay": 0.0001
+        },
+        "threshold": 6.492571830749512
+      },
+      "SVM": {
+        "calibration_pure_lots": 18,
+        "calibration_specificity": 0.9444444444444444,
+        "inner_scores": [
+          0.3125,
+          0.375,
+          0.5,
+          0.5
+        ],
+        "params": {
+          "C": 1.0,
+          "kernel": "rbf"
+        },
+        "threshold": 1.4240139601988835
+      },
+      "XGBoost": {
+        "calibration_pure_lots": 18,
+        "calibration_specificity": 0.9444444444444444,
+        "inner_scores": [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "params": {
+          "learning_rate": 0.04,
+          "max_depth": 2
+        },
+        "threshold": 0.4063985347747803
+      }
+    },
+    "seed": 20261523,
+    "test_groups": [
+      "C9"
+    ],
+    "window": "common_780_1000_nm"
+  },
+  {
+    "calibration_groups": [
+      "C9"
+    ],
+    "development_groups": [
+      "C1",
+      "C8"
+    ],
+    "fold": 1,
+    "inner_validation_groups": [
+      [
+        "C8"
+      ],
+      [
+        "C1"
+      ]
+    ],
+    "models": {
+      "MLP": {
+        "calibration_pure_lots": 6,
+        "calibration_specificity": 1.0,
+        "inner_scores": [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "params": {
+          "learning_rate": 0.001,
+          "weight_decay": 0.0001
+        },
+        "threshold": 2.61023211479187
+      },
+      "SVM": {
+        "calibration_pure_lots": 6,
+        "calibration_specificity": 1.0,
+        "inner_scores": [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "params": {
+          "C": 0.1,
+          "kernel": "linear"
+        },
+        "threshold": 9.028173925955
+      },
+      "XGBoost": {
+        "calibration_pure_lots": 6,
+        "calibration_specificity": 1.0,
+        "inner_scores": [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "params": {
+          "learning_rate": 0.04,
+          "max_depth": 2
+        },
+        "threshold": 0.40957510471343994
+      }
+    },
+    "seed": 20261223,
+    "test_groups": [
+      "C7"
+    ],
+    "window": "native_span"
+  },
+  {
+    "calibration_groups": [
+      "C1"
+    ],
+    "development_groups": [
+      "C7",
+      "C9"
+    ],
+    "fold": 2,
+    "inner_validation_groups": [
+      [
+        "C7"
+      ],
+      [
+        "C9"
+      ]
+    ],
+    "models": {
+      "MLP": {
+        "calibration_pure_lots": 6,
+        "calibration_specificity": 1.0,
+        "inner_scores": [
+          0.5,
+          0.5,
+          0.53125,
+          0.53125
+        ],
+        "params": {
+          "learning_rate": 0.003,
+          "weight_decay": 0.0001
+        },
+        "threshold": -0.9032164812088013
+      },
+      "SVM": {
+        "calibration_pure_lots": 6,
+        "calibration_specificity": 1.0,
+        "inner_scores": [
+          0.5625,
+          0.5625,
+          0.5520833333333333,
+          0.5
+        ],
+        "params": {
+          "C": 0.1,
+          "kernel": "linear"
+        },
+        "threshold": -1.552983463987607
+      },
+      "XGBoost": {
+        "calibration_pure_lots": 6,
+        "calibration_specificity": 1.0,
+        "inner_scores": [
+          0.4479166666666667,
+          0.5,
+          0.46875,
+          0.4791666666666667
+        ],
+        "params": {
+          "learning_rate": 0.12,
+          "max_depth": 2
+        },
+        "threshold": -0.1590220332145691
+      }
+    },
+    "seed": 20261323,
+    "test_groups": [
+      "C8"
+    ],
+    "window": "native_span"
+  },
+  {
+    "calibration_groups": [
+      "C8"
+    ],
+    "development_groups": [
+      "C7",
+      "C9"
+    ],
+    "fold": 3,
+    "inner_validation_groups": [
+      [
+        "C7"
+      ],
+      [
+        "C9"
+      ]
+    ],
+    "models": {
+      "MLP": {
+        "calibration_pure_lots": 6,
+        "calibration_specificity": 1.0,
+        "inner_scores": [
+          0.5520833333333333,
+          0.5520833333333333,
+          0.5520833333333333,
+          0.5520833333333333
+        ],
+        "params": {
+          "learning_rate": 0.001,
+          "weight_decay": 0.0001
+        },
+        "threshold": 0.48885446786880493
+      },
+      "SVM": {
+        "calibration_pure_lots": 6,
+        "calibration_specificity": 1.0,
+        "inner_scores": [
+          0.5625,
+          0.5625,
+          0.5520833333333333,
+          0.5
+        ],
+        "params": {
+          "C": 0.1,
+          "kernel": "linear"
+        },
+        "threshold": 1.5576186396803313
+      },
+      "XGBoost": {
+        "calibration_pure_lots": 6,
+        "calibration_specificity": 1.0,
+        "inner_scores": [
+          0.4479166666666667,
+          0.5,
+          0.46875,
+          0.4791666666666667
+        ],
+        "params": {
+          "learning_rate": 0.12,
+          "max_depth": 2
+        },
+        "threshold": 0.03786951303482056
+      }
+    },
+    "seed": 20261423,
+    "test_groups": [
+      "C1"
+    ],
+    "window": "native_span"
+  },
+  {
+    "calibration_groups": [
+      "C7"
+    ],
+    "development_groups": [
+      "C1",
+      "C8"
+    ],
+    "fold": 4,
+    "inner_validation_groups": [
+      [
+        "C8"
+      ],
+      [
+        "C1"
+      ]
+    ],
+    "models": {
+      "MLP": {
+        "calibration_pure_lots": 18,
+        "calibration_specificity": 0.9444444444444444,
+        "inner_scores": [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "params": {
+          "learning_rate": 0.001,
+          "weight_decay": 0.0001
+        },
+        "threshold": 0.9057713150978088
+      },
+      "SVM": {
+        "calibration_pure_lots": 18,
+        "calibration_specificity": 0.9444444444444444,
+        "inner_scores": [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "params": {
+          "C": 0.1,
+          "kernel": "linear"
+        },
+        "threshold": 2.469875407754139
+      },
+      "XGBoost": {
+        "calibration_pure_lots": 18,
+        "calibration_specificity": 1.0,
+        "inner_scores": [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "params": {
+          "learning_rate": 0.04,
+          "max_depth": 2
+        },
+        "threshold": 0.4084373116493225
+      }
+    },
+    "seed": 20261523,
+    "test_groups": [
+      "C9"
+    ],
+    "window": "native_span"
+  }
+]
